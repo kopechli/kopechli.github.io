@@ -1,0 +1,336 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: url(../img/me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /*margin: auto;*/
+    text-align: center;
+    font-family: lato;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;  
+}
+#sidenav-about{
+    width: 50%;
+    float: right;
+    margin-right: 100px;
+    background-color: #02020285;
+    color: aliceblue;
+    position: absolute;
+    top: 58px;
+    right: 0px;
+    padding: 20px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    transition: 0.3s;    
+}
+.sidenav a:hover {
+    color:#000000;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}  
+.closebtn {
+    margin-top: 10px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#qrCode{
+    width: 250px;
+    height:auto;
+}
+#topbar{
+    background-color: black;
+    width: 100%;
+    padding:10px;
+}
+#about{
+    width: 100%;
+    padding: 1%;
+}
+#about-text {
+    width: 50%;
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #717171;
+}
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+/* Add a blue color to the author */
+.author {
+    color: cornflowerblue;
+}
+.core,.attributes,.check-area,.wiki{
+    font-size: x-large;
+    font-family: lobster;
+    float: right;
+    /*margin-right: 40px;*/   
+    position: fixed;
+    text-align: left;
+    top: 140px;  
+}
+.wiki{
+    top: 750px;
+    right: 350px;
+}
+.core{
+    right: 350px;
+}
+.attributes{
+    right: 20px;
+}
+.core-item{
+    text-align: left;
+}
+#talkbubble {
+    width: 280px;
+    height: 300px;
+    background: #8e8e8e;
+    position: fixed;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: right;
+    top: 400px;
+    right: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    box-shadow: 5px 7px 9px 0px #696464;
+    padding: 10px;
+    font-family: 'Lobster';
+}
+.check-area{
+    font-size: x-large;
+    text-align: left;
+    padding: 10px;
+    width: 450px;
+    height: 300px;
+    position: fixed;
+    float: right;
+    top: 400px;
+    right: 20px;
+    font-family: 'Lobster';
+}
+footer{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-weight: bolder;
+    color: white;
+    font-family: lobster; 
+}
+.copyright{
+    float:left;
+    padding-bottom:10px;
+    margin-left: 20px;
+    color: grey;
+    font-size: 18px;
+}
+.powered{
+    float: right;
+    padding-bottom:10px;
+    margin-right: 20px;
+    color: grey;
+    font-size: 18px;
+}
+#blog{
+    float: right;
+    font-size: 40px;
+    font-family: 'Lobster';
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:rgba(85, 85, 85, 0.548);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    width: 60px;
+}
+#myBtn:hover {
+    background-color:#0075ff;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.download{
+    color: #ffffff;
+    font-size: xx-large;
+    text-shadow: 2px 2px 20px #000000;
+}
+.fa-lg{
+    color: #929292;
+}
+.fa-lg:hover{
+    color: #585858;
+}
+.social-links a{
+    width: 25%; 
+    text-align: center;
+    padding: 5px;
+}   
+.qr-container{
+    padding: 20px;
+}
+.header-subtitle{
+    font-family: 'Lobster';
+    float: right;
+}
+/*-----------------------------------------------------  Media Queries  ------------------------------------------*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 530px) {
+    #about-text {
+        width: 100%;
+    }
+    .check-area{
+        position:relative;
+        top: unset;
+        right: unset;
+        width: 250px;
+    }
+    .core, .attributes,.check-area{
+        position:relative;
+        width: 250px;
+        padding: 10px;
+        margin: 0 auto;
+        float: unset;
+        text-align: left;
+        top: unset;
+        right: unset;
+    }
+    .copyright,.powered{
+        float: unset;
+        margin: unset;
+    }
+    .card{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 410px) {
+    #wdev{
+      display: none;
+    }
+}
+/*-----------------------------------------------------  Media Queries  ------------------------------------------*/  
