@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFBYBDRH04"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFBYBDRH04');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kopechli</title>
@@ -13,7 +22,7 @@
 <div id="mySidenav" class="sidenav">
    <!-- <a href="javascript:void(0)" class="closebtn" ></a>-->
     <a href="#">About</a>
-    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
     <a href="#">Clients</a>
     <a href="#">Contact</a>
     <a href="#" onclick="closeNav()" style="color:white">Close</a>
@@ -35,6 +44,8 @@
     <span class="title header-subtitle">Human male from planet earth</span>
     <br>
 
+   
+
 <!-------------------------------------------------------------------   Fieldsets   ------------------------------------------------------------------------>
    
     <fieldset class="attributes">
@@ -47,9 +58,11 @@
     </fieldset>
     <fieldset class="core">
         <legend >Core</legend>
-        <label class="core-item" for="PHP">PHP</label><br>
         <label class="core-item" for="JavaScript">JavaScript</label><br>
-        <label class="core-item" for="MySQL">MySQL</label>
+        <label class="core-item" for="MySQL">MySQL</label><br>
+        <label class="core-item" for="JavaScript">HTML</label><br>
+        <label class="core-item" for="JavaScript">CSS</label><br>
+        <label class="core-item" for="PHP">PHP</label>
     </fieldset>
     <fieldset class="check-area">
         <legend>Currently</legend>
@@ -75,16 +88,19 @@
 
 <!-------------------------------------------------------------------   Card   -----------------------------------------------------------------------------> 
     <div class="card">
-        <img src="https://gblobscdn.gitbook.com/spaces/-MKGsQoXTZxfWq2rv-R3/avatar-1603402980163.png?alt=media" alt="Kostantinos" style="width:100%">
-        <h1>Konstantinos Pechlivanidis</h1>
-        <p class="title">Information management graduate, web developer and amateur artist, with knack for T/S electronics.</p>
-        <p>Eastern Macedonia & Thrace<br> Institute of Technology</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/konstantinos-pechlivanidis-6b81b9202/"><i class="fa fa-linkedin fa-lg"></i></a>
-            <a href="https://trello.com/kopechli"><i class="fa fa-trello fa-lg" aria-hidden="true"></i></a> 
-            <a href="https://open.spotify.com/playlist/0Gwuc89jckpEscLTTEJPSh"><i class="fa fa-spotify fa-lg" aria-hidden="true"></i></a> 
-            <a href="https://www.deviantart.com/exetleos"><i class="fa fa-deviantart fa-lg"></i></a>  
-            <a href="https://www.facebook.com/kopechli/"><i class="fa fa-facebook fa-lg"></i></a> 
+        <div id="welcome-section">
+            <img class="profile-img" src="https://gblobscdn.gitbook.com/spaces/-MKGsQoXTZxfWq2rv-R3/avatar-1603402980163.png?alt=media" alt="Kostantinos" style="width:100%">
+            <h1>Konstantinos Pechlivanidis</h1>
+            <p class="title">Information management graduate, web developer and amateur artist, with knack for T/S electronics.</p>
+            <p>Eastern Macedonia & Thrace<br> Institute of Technology</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/konstantinos-pechlivanidis-6b81b9202/"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/kopechli"><i class="fa fa-github fa-lg"></i></a>
+                <a href="https://www.deviantart.com/exetleos"><i class="fa fa-deviantart fa-lg"></i></a>
+                <a href="https://www.facebook.com/kopechli/"><i class="fa fa-facebook fa-lg"></i></a> 
+                <a href="https://trello.com/kopechli"><i class="fa fa-trello fa-lg" aria-hidden="true"></i></a> 
+                <a href="https://open.spotify.com/playlist/0Gwuc89jckpEscLTTEJPSh"><i class="fa fa-spotify fa-lg" aria-hidden="true"></i></a>   
+            </div>
         </div>
         <p>
             <button class="expandable">Contact</button>
@@ -130,7 +146,8 @@
     </div>
 </div>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
+  </button>
 
 <footer>
     <hr>
