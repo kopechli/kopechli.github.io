@@ -1,3 +1,16 @@
+    //------------------------------  GLOBALS  -------------------------------
+    var attributes = document.getElementsByClassName("attributes");
+    var core = document.getElementsByClassName("core");
+    var check_area = document.getElementsByClassName("check-area");
+    var welcom = document.getElementById('welcom');
+    var fealds = document.getElementById('fieldsets');
+    var cardWelcom = document.getElementById('welcome-section');
+    var card = document.getElementsByClassName("card");
+    //-------------------------------------------------------------------------
+    
+    
+    
+    
     //--------------------------------  Menu { ---------------------------------------
     function openNav() {
         document.getElementById("mySidenav").style.width = "100%";
@@ -38,15 +51,25 @@
     
         //--------------------------------- Fieldsets mobile {  --------------------------
         window.onresize = ()=>{ 
-         if ( window.innerWidth < 530) {
-        var card = document.getElementsByClassName("card");          
-        var attributes = document.getElementsByClassName("attributes");
-        var core = document.getElementsByClassName("core");
-        var check_area = document.getElementsByClassName("check-area");
-        card[0].insertBefore(attributes[0],card[0].children[0]) ;
-        card[0].insertBefore(core[0],card[0].children[1])  ;         
-        card[0].insertBefore(check_area[0],card[0].children[2])  ;   
-        }}
+             if( window.innerWidth < 1360){
+                welcom.appendChild(fealds); 
+            }
+            if ( window.innerWidth < 860) {
+               card[0].insertBefore(welcom,card[0].children[0]);
+               //card[0].appendChild(welcom);
+            }      
+        }
+        window.onload = () => {
+            if( window.innerWidth < 1360){
+                welcom.appendChild(fealds);
+            }
+            if ( window.innerWidth < 860) { 
+               
+                card[0].insertBefore(welcom,card[0].children[0]);
+            }
+            navHandler();
+            expand();
+          };
         //--------------------------------- Fieldsets mobile }  ---------------------------
      
     
@@ -54,7 +77,7 @@
         //Get the button
         var mybutton = document.getElementById("myBtn");
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {scrollFunction(), stickyNav()};
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -82,3 +105,93 @@
         }
         }
         //------------------------------------ Video } ------------------------------------
+
+       
+        window.onscroll = function() {stickyNav()};
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        //if( scrolled > 5 ){console.log(scrolled)}
+        document.getElementById("bar").style.height = scrolled + "%";
+        }
+
+
+        // let navBar = document.querySelectorAll(".nav-link");
+        //   navBar.forEach((nav) => {
+        //     nav.addEventListener("click",()=>{
+        //         let targetID = nav.href.split("#");
+        //        let targetElemnt = document.getElementById(targetID[1]);
+        //        targetElemnt.style.display="none";
+        //   });
+        // });
+
+        function stickyNav() {
+            let navbar = document.getElementById("menu");
+            let sticky = navbar.offsetTop;
+            window.pageYOffset > sticky?navbar.classList.add("sticky"):navbar.classList.remove("sticky"); 
+        }
+        function navHandler(){
+          let navBar = document.querySelectorAll(".nav-link");
+          navBar.forEach((nav) => {
+            nav.addEventListener("click",()=>{
+              !nav.classList.contains("active-link")&&nav.classList.add('active-link');
+              let current = nav.innerHTML;
+              navBar.forEach((nav) => {nav.innerHTML != current&&nav.classList.remove('active-link')});
+            });
+          });
+        }
+
+        //   window.addEventListener('scroll', function isInViewPort(){
+        //     let elem = document.querySelector('#timeLine').getBoundingClientRect();
+        //     let center = window.innerHeight/2;
+        //     let test = elem.height+(window.innerHeight/2);
+        //     if(test >= elem.bottom && elem.top > 0){
+        //         document.getElementById("welcom").style.display="none";
+                
+                   
+        //     }else if(test <= elem.bottom){
+        //         document.getElementById("welcom").style.display="block";
+        //     }
+           
+            
+        //   });
+
+
+          function openPage(pageName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+          }
+          document.getElementById("defaultOpen").click();
+          
+          function expand(){
+            let buttons = document.querySelectorAll('.expandable'); 
+            buttons.forEach((btn) => {
+              btn.addEventListener("click",()=>{
+                if(btn.innerHTML=="Contact"){
+                  let el = document.getElementsByClassName('qr-container');
+                  el[0].classList.toggle('hide');
+                }
+                if(btn.innerHTML=="About"){
+                  let el = document.getElementsByClassName('cart-about');
+                  let el1 = document.getElementsByClassName('slideshow-container');
+                  let el2 = document.getElementsByClassName('dot-container');
+                  el1[0].classList.toggle('show');
+                  el2[0].classList.toggle('show');
+                  el[0].classList.toggle('show');
+                }
+              });
+            });
+            
+           
+          }
+      

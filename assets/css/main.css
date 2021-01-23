@@ -4,7 +4,69 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+                                  line-height: 1.5;
 }
+h1 {
+	font-family:'lobster';
+	margin-bottom: .5em;
+}
+.body-title{
+    color: grey;
+    font-size: 4em;
+    padding: inherit;
+   
+}
+
+/*-----------------------------------------------------  Time-Line  ------------------------------------------*/
+.time-line {
+	max-width: 800px;
+	width: 90%;
+	margin: 0px auto;
+}
+.timeline-item {
+	padding: 3em 2em 2em;
+	position: relative;
+	color: rgba(0, 0, 0, .7);
+	border-left: solid 2px rgb(54 154 212);
+}	
+p {
+	font-size: 1rem;
+}
+.timeline-item::before {
+    content: attr(id);
+    position: absolute;
+    left: 1em;
+    font-weight: bold;
+    top: 0em;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: .785rem;
+}
+.timeline-item::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 0em;
+    position: absolute;
+    left: -8px;
+    border-radius: 10px;
+    content: '';
+    border: 2px solid rgba(54 169 225);
+    background: white;
+}
+
+.timeline-item:last-child {
+	border-image: linear-gradient( to bottom,rgb(54 169 225) 60%, rgb(255 255 255 / 0%)) 3 100%;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -12,9 +74,19 @@ body {
     text-align: center;
     font-family: lato;
 }
+.card button{
+    margin: 15px 0px 15px 0px;
+}
+.card ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
 .title {
     color: grey;
     font-size: 18px;
+    padding: 0px 5px 0px 5px;
 }
 button {
     border: none;
@@ -44,10 +116,14 @@ button:hover, a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(237, 237, 237);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-right: 17px; */
+    
 }
 #sidenav-about{
     width: 50%;
@@ -64,12 +140,15 @@ button:hover, a:hover {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color:white;
+    color:rgb(128, 128, 128);
+    font-weight: bold;
     display: block;
     transition: 0.3s;    
 }
 .sidenav a:hover {
-    color:#000000;
+    color:#ffffff;
+    text-shadow:0px 0px 20px black; 
+
 }
 .sidenav .closebtn {
     position: absolute;
@@ -77,13 +156,14 @@ button:hover, a:hover {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    
 }  
 .closebtn {
     margin-top: 10px;
 }
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 0px 16px;
 }
 #qrCode{
     width: 250px;
@@ -105,6 +185,7 @@ button:hover, a:hover {
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
+    display: none;
 }
 /* Slides */
 .mySlides {
@@ -142,6 +223,7 @@ button:hover, a:hover {
     text-align: center;
     padding: 20px;
     background: #ddd;
+    display: none;
 }
 /* The dots/bullets/indicators */
 .dot {
@@ -168,12 +250,13 @@ q {
 }
 .core,.attributes,.check-area,.wiki{
     font-size: x-large;
-    font-family: lobster;
+    font-family: 'lobster';
     float: right;
     /*margin-right: 40px;*/   
     position: fixed;
     text-align: left;
     top: 140px;  
+   
 }
 .wiki{
     top: 750px;
@@ -264,14 +347,6 @@ footer{
 #myBtn:hover {
     background-color:#0075ff;
 }
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
 .download{
     color: #ffffff;
     font-size: xx-large;
@@ -290,10 +365,14 @@ footer{
 }   
 .qr-container{
     padding: 20px;
+    display: block;
 }
 .header-subtitle{
     font-family: 'Lobster';
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
 }
 .profile-img{
     margin-top: 10%;
@@ -302,13 +381,183 @@ footer{
 #welcome-section{
   display: block;
    text-align: center;
+   height: 968px;
 }
+#welcome-section h1{
+    font-size: 1.5em;
+    font-family: 'lato';
+}
+polygon{
+    fill:#ffffff14 !important
+}
+text{
+    fill:rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 2px 2px 20px #000000;
+}
+path{
+    fill: #00000012;
+    stroke: #00000017;
+}
+.apexcharts-yaxis{
+    transform: translateY(20px)
+}
+
+#scrollbar
+{
+  width: 10px;
+  height: 100%;
+  padding: 0;
+  margin: 0 0 0 auto;
+  right: 80%;
+  top: 0;
+  position: fixed;
+  visibility: visible;
+  background-color: transparent;
+}
+#scrollbar #bar
+{
+    width: 100%;
+    height: 0%;
+    background-color: #ccc;
+}
+#welcom{
+    font-family: 'Lobster';
+    width: 30%;
+    position: fixed;
+    top: 102px;
+    left: 30%;
+    border-color: #80808045;
+    float: unset;
+    text-align: center;
+}
+#fieldsets{
+    float: right;
+    color: gray;
+}
+#menu{
+   
+    
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+#menu a{
+   
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    font-family: 'Lobster';
+}
+
+
+  
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main);
+  }
+  .projects-section img{
+    width: 350px;
+    border-bottom: solid 2px;
+    border-bottom-color: #369ad4;
+    padding-bottom: 10px;
+  }
+  
+  .projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%!important;
+    z-index: 2;
+    background-color: #ededed;
+    left: 0px;
+    transition: 1s;
+    padding: 5px;
+  }
+  #home{
+      padding-top: 0px!important;
+  }
+  .tabcontent {
+    
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  .active-link{
+    color: #369ad4;
+}
+.code{
+    color:#369ad4;
+    font-weight: bolder;
+    font-size: larger;
+}
+ .project-title{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 56%;
+    margin: 20px auto;
+    padding: 5px;
+
+ }
+ .show{
+     display:block!important;
+ }
+ .hide{
+     display: none!important;
+ }
+ .cart-about{
+     display: none;
+ }
+/* transition: background-color 2s ease-out; */
+
 /*-----------------------------------------------------  Media Queries  ------------------------------------------*/
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
+@media screen and (max-width: 1360px) {
+    .core, .attributes,.check-area{
+        position: relative;
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    float: unset;
+    text-align: left;
+    top: unset;
+    right: unset;
+    border-color: #d8d8d887;
+    }
+   
+
+/* .core legend{color: gray;}
+.attributes legend{color: gray;}
+.check-area  legend{color: gray;} */
+    #welcom{
+        width: 50%;
+        float: right;
+        border: none;
+        margin-left: 10%;
+        
+    }
+    #fieldsets{
+        float: unset;
+        display: flex;
+        flex-flow: wrap;
+    }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 860px) {
     #about-text {
         width: 100%;
     }
@@ -334,11 +583,46 @@ footer{
     }
     .card{
         max-width: 400px;
+        margin: 0 auto;
     }
-}
-@media screen and (max-width: 410px) {
-    #wdev{
-      display: none;
+    .meCard{
+        margin: 0 auto;
     }
+    #welcom{
+        width: 90%;
+        position: unset;
+        margin: 0 auto;
+        float: unset;
+        border: none;
+    }
+    #fieldsets{
+        float: unset;
+        display: unset;
+    }
+    #menu{
+        width: 100%;
+    }
+    #menu a{
+        margin: 0px 5px 5px 5px;
+    }
+   
+.header-subtitle{
+    width: 100%;
 }
+nav{
+    flex-direction: column;
+}
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+   
+  }
+  
+  @media screen and (max-width: 410px) {
+      #wdev{
+        display: none;
+      }
+    
+  }
 /*-----------------------------------------------------  Media Queries  ------------------------------------------*/  
