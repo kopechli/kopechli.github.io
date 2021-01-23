@@ -471,13 +471,18 @@ path{
     border-bottom: 0.2rem solid var(--main-white);
   }
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
+  }
+  .projects-grid a{
+    margin-left: 50px;
+    margin-right: 50px;
+
   }
   .sticky {
     position: fixed;
@@ -616,12 +621,18 @@ nav{
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    
    
   }
   
   @media screen and (max-width: 410px) {
       #wdev{
         display: none;
+      }
+      .projects-grid a{
+        margin-left: 0px;
+        margin-right: 0px;
+    
       }
     
   }
