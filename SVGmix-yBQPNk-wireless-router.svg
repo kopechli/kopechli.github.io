@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 22.91 10.505"
+   version="1.1"
+   sodipodi:docname="SVGmix-yBQPNk-wireless-router.svg"
+   width="22.91"
+   height="10.505"
+   inkscape:export-filename="SVGmix-yBQPNk-wireless-router.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.91px;}.cls-2{fill:#020202;}</style>
+  </defs>
+  <rect
+     class="cls-1"
+     x="0.95499998"
+     y="0.95499998"
+     width="21"
+     height="7.6399999"
+     rx="1.91"
+     id="rect1"
+     style="stroke:#6495ed;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="3.8150001"
+     y1="10.505"
+     x2="3.8150001"
+     y2="8.5950003"
+     id="line1"
+     style="stroke:#6495ed;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="19.094999"
+     y1="10.505"
+     x2="19.094999"
+     y2="8.5950003"
+     id="line2"
+     style="fill:#6495ed;fill-opacity:1;stroke:#6495ed;stroke-opacity:1" />
+  <circle
+     class="cls-2"
+     cx="4.7750001"
+     cy="4.7750006"
+     r="0.94999999"
+     id="circle2"
+     style="fill:#ffffff;stroke:#6495ed;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="9.5450001"
+     y1="4.7750006"
+     x2="11.455"
+     y2="4.7750006"
+     id="line3"
+     style="stroke:#6495ed;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="13.365"
+     y1="4.7750006"
+     x2="15.275"
+     y2="4.7750006"
+     id="line4"
+     style="stroke:#6495ed;stroke-opacity:1" />
+  <line
+     class="cls-1"
+     x1="17.184999"
+     y1="4.7750006"
+     x2="19.094999"
+     y2="4.7750006"
+     id="line5"
+     style="stroke:#6495ed;stroke-opacity:1" />
+</svg>

@@ -1,0 +1,128 @@
+<div title="Algorithms">
+	<h1>The Army</h1>
+	<p>
+		It was one erly morning of 2014, in the middle of the Greek economic crisis, the month was May 
+		and i was entering the gates of a military recruitment camp. 
+	</p>
+    <p>
+		My father lost his job and i was supporting the family alongside my brother with money 
+		i managed to save from my ICT help desk job. But when that money started to dry up and i was
+		unable to find a job. I said to myself, either way i will serve in the army at some point. 
+		So i will apply as a cadet, and that way i will secure an income to send home. 
+	</p> 
+    <p>
+		With my background in information management and work experience i thought, it will be relatively 
+		easy to be accepted in signals and communication as a cadet. 
+
+		They told me that the signals and communication is very difficult position to get in. 
+		That it had only 8 open position at that time for the entire country, and if i am not from 
+		a military or political family, i do not stand a chance. And beside that, i need to pass 
+		the physical and psychological exams first.
+	</p>
+    <p>
+		In my time with the army:
+		<ul>
+			<li>Served regulary on the camp's rapid response team, demonstrating readiness and quick-thinking</li>
+			<li>Conducted inspection raids for service officers and companies, ensuring adherence to standards</li>
+			<li>Performed command duties for the cadet officer's company as well for garrison command</li>
+			<li>Managed all the storages of cadet officer's company, weapons, equipment, movables, misc etc</li>
+			<li>Was part of security procedures for the camp's weapons storage</li>
+			<li>Organized and managed diverse camp activities (training, education, posts, ceremonies & admin)</li>
+			<li>Entrusted for hoisting / lowering the first flag of the nation(acropolis) & camp flag. 
+			Ensured proper protocol, maintenance, and squad training, selection and coordination</li>
+		</ul>
+	
+		
+		
+		And all that on top of my reagular duties! Needless to say i was sleeping 2-3 hours every 2-3 days! 
+		I was responsible for my entire company and if anyone from my company were to found undisciplined for 
+		any reason, i was sharing the punishment! If you were in the military you get what i am saying. 
+	</p>
+	<p>
+		I will not get into more details, but i was Outpost commander, when i was finaly discharged 
+		from the army as signals and communications second lieutenant, marking the end of the second best period of my life.
+
+	</p>
+</div>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+<div title="On_The_Road">
+	<h1>ICT help desk agent</h1>
+    <p>
+		In February 2012 I embarked on a journey, that would further my expertise and passion for technology, 
+		by Joining the OTE Group as an ICT help desk agent. I was the bridge between complex technology and user 
+		satisfaction. Documenting and resolving technical product-related issues became my daily task, 
+		learning and adapting as each new challenge presented itself.
+	</p>
+	<p>  
+		Recognizing my ability to navigate both the technical and interpersonal aspects of the job, I was entrusted 
+		with resolving interdepartmental IT issues. This role not only honed my technical skills but also my ability 
+		to communicate effectively across various departments, ensuring smooth operations and fostering a 
+		collaborative environment.
+	</p>
+	<p> 
+		Further expanding my responsibilities, I was assigned as a floor assistant for the technical support department. 
+		This position demanded a broad understanding of our operations and the agility to provide support where needed, 
+		ensuring that our team remained responsive and efficient in addressing customer needs.
+	</p>
+	<p>  
+		A particularly rewarding aspect of my tenure was the opportunity to assist in the training and development of 
+		new ICT help desk agents. Sharing knowledge and guiding newcomers through the complexities of our work was an 
+		enriching experience that underscored the importance of teamwork and the continuous pursuit of learning.
+	</p>
+	<p>  
+		In addition to these roles, I also took on back-office assistant-related responsibilities. 
+		This diverse workload not only diversified my skill set but also provided a comprehensive 
+		understanding of the technical and administrative facets of our operations.
+	</p>
+    <p>  
+		By the time my journey at the OTE Group of Companies came to a close in August 2012, I had not only 
+		contributed to the technical support department but had also grown immensely, both professionally 
+		and personally. My time as an ICT help desk agent was a testament to the impact of dedication and 
+		adaptability in the fast-paced world of information and communication technology.
+    </p> 
+</div>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+<div title="After_College">
+	<h1>Warehouse Operative</h1>
+    <p> 
+		It was 2006, in the vibrant heart of Thessaloniki city, where I embarked on a journey within the carpet cleaning business. 
+		This experience would once again engrain in me the core values of hard work, precision, and teamwork. My role in the 
+		warehouse was multifaceted, marked by mountains of carpets and encompassing a range of tasks from the initial washing 
+		to the final stages of vacuuming and packaging.
+	</p>
+    <p>
+		As the seasons unfolded, so did the demands of the job, and with them, my resilience was tested and strengthened. 
+		The seasonal nature of the carpet cleaning business served as a rigorous teacher, introducing me to the critical 
+		importance of adaptability and foresight. I learned to not only anticipate the busy periods but to also prepare 
+		meticulously for the influx of orders. This period honed my ability to oversee the entire process efficiently 
+		and effectively.
+	</p>
+    <p>
+		By the end of 2009 i was a foreman, the challenges of the job, including tight deadlines and high expectations, 
+		had contributed significantly to my personal growth. These experiences taught me that success is intricately 
+		linked to the effort of the team as a whole and that shaped my understanding of achievement and collaboration
+		from then on.
+	</p>
+</div>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+<div title="Origin">
+	<h1>Assembly Workerr</h1>
+    <p>
+		Embarking on the journey through the labor market at a tender age, on a summer of 2004, I found myself immersed in the world 
+        of a seasonal assembly worker at an olive processing plant. The job was my initiation into the workforce, 
+        my rite of passage that introduced me to the realities of earning a living. It was there that I first 
+        understood the meaning of hard work.
+	</p>
+	<p> 
+		My days were a blend of assembly line work, where precision and speed were paramount, physically demanding 
+        loading and unloading work in the yard whare I learned the value of teamwork and the importance of physical 
+        strength and endurance, and maintenance work a task that demanded not just physical prowess but also 
+        a keen sense of organization and efficiency. The weight of the barels, the endless back-and-forth and the hot 
+        Greek summer sun, whare a challenge, in wich I found a newfound resilience and determination.
+	</p>
+	<p>
+		My journey in to the labor market, beginning as a seasonal assembly worker, was an education. 
+		It taught me the values of hard work, adaptability, and teamwork. 
+        It was a chapter in my growing understanding of the workforce and my place within it.
+	</p>
+</div>

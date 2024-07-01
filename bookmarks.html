@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tidy Tree with D3.js (Collapsible)</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    .node circle {
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 2px;
+	  margin-bottom:2px;
+	  margin-top:2px;
+    }
+
+    .node text {
+      font: 12px sans-serif;
+    }
+
+    .node .hidden {
+      display: none;
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1.5px;
+    }
+  </style>
+</head>
+<body>
+  <svg width="100%" height="600"></svg>
+  <script>
+    // Define the diagonal function to generate links
+    const diagonal = d3.linkHorizontal()
+      .x(d => d.y)
+      .y(d => d.x);
+
+    // Data for the tree
+    const treeData = {
+      "name": "Information Management",
+      "children": [
+        {
+          "name": "Information technology",
+          "children": [
+            {"name": "Discrete mathematics - Linear algebra"},
+            {"name": "Computer architecture"},
+            {"name": "Computer operating systems"},
+            {"name": "Data communications - Computer networks"},
+            {"name": "Computer algorithms"},
+            {"name": "Structural programing (C++)"},
+            {"name": "Object oriented programing (C++)"},
+            {"name": "Data structures (C++)"},
+            {"name": "Database systems (SQL)"},
+            {"name": "System analysis - Software engineering"},
+            {"name": "Internet information management (HTML , PHP)"},
+            {"name": "Information management in client-server architecture (SQL)"},
+            {"name": "Visual programing and User interface Design"},
+            {"name": "Multimedia in information management (Java)"}
+          ]
+        },
+        {
+          "name": "Management",
+          "children": [
+            {"name": "Business management"},
+            {"name": "Project management"},
+            {"name": "Logistics (supply chain management)"},
+            {"name": "Information and communication management"},
+            {"name": "Human resource management"},
+            {"name": "Total quality management"},
+            {"name": "Management information systems"},
+            {"name": "Management of SMEs enterprises - entrepreneurship"},
+            {"name": "Expert systems and decision support systems"},
+            {"name": "Information marketing"},
+            {"name": "E - Business"},
+            {"name": "Information technology in business"},
+            {"name": "Element of Didactics and Pedagogy"}
+          ]
+        },
+        {
+          "name": "Economics",
+          "children": [
+            {"name": "Business economics"},
+            {"name": "Economics"},
+            {"name": "Accounting I"},
+            {"name": "Accounting II"},
+            {"name": "Financial analysis and business evaluation"},
+            {"name": "Statistics in business"},
+            {"name": "Statistical methods of forecasting"},
+            {"name": "Operations research"},
+            {"name": "Scientific research methodology"},
+            {"name": "Special issues in law"}
+          ]
+        },
+        {
+          "name": "English",
+          "children": [
+            {"name": "English language I"},
+            {"name": "English language II"},
+            {"name": "Terminology in English language"}
+          ]
+        }
+      ]
+    };
+
+    // Set the dimensions and margins of the diagram
+    const margin = {top: 20, right: 90, bottom: 30, left: 90},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    // Append the svg object to the body of the page
+    const svg = d3.select("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    // Create the cluster layout:
+    const tree = d3.tree().size([height, width]);
+
+    // Give the data to this cluster layout:
+    const root = d3.hierarchy(treeData);
+    tree(root);
+
+    // Add the links between nodes:
+    svg.selectAll('path.link')
+      .data(root.links())
+      .enter()
+      .append('path')
+        .attr('class', 'link')
+        .attr('d', diagonal);
+
+    // Add a circle for each node.
+    const nodes = svg.selectAll("g.node")
+      .data(root.descendants())
+      .enter().append("g")
+        .attr("class", "node")
+        .attr("transform", d => "translate(" + d.y + "," + d.x + ")")
+        .on("click", toggleChildren);
+
+    nodes.append("circle")
+      .attr("r", 7);
+
+    nodes.append("text")
+      .attr("dy", "0.31em")
+      .attr("x", d => d.children ? -13 : 13)
+      .style("text-anchor", d => d.children ? "end" : "start")
+      .text(d => d.data.name);
+
+    function toggleChildren(event, d) {
+      if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+      update(d);
+    }
+
+    function update(source) {
+      const nodes = root.descendants();
+      const links = root.links();
+
+      // Update the links
+      svg.selectAll('path.link')
+        .data(links, d => d.target.data.name)
+        .join('path')
+        .attr('class', 'link')
+        .attr('d', diagonal);
+
+      // Update the nodes
+      const node = svg.selectAll("g.node")
+        .data(nodes, d => d.data.name)
+        .join('g')
+        .attr("class", "node")
+        .attr("transform", d => `translate(${d.y},${d.x})`)
+        .on("click", toggleChildren);
+
+      // Add circles for new nodes
+      node.append("circle")
+        .attr("r", 7);
+
+      // Add text for new nodes
+      node.append("text")
+        .attr("dy", "0.31em")
+        .attr("x", d => d.children ? -13 : 13)
+        .style("text-anchor", d => d.children ? "end" : "start")
+        .text(d => d.data.name);
+    }
+  </script>
+</body>
+</html>
