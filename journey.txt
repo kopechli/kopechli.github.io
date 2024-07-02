@@ -1,3 +1,37 @@
+<div title="Sunflare">
+	<h1>Web Development</h1>
+	<p>
+		In the end of 2018, as winter comes, i see a sunflare. I followed the sun and i found myself sitting in an office,
+		at an interview for a web development position. It may surprise you, but i had a strong background in web development.
+	</p>
+    <p>
+		In university i was the only student in the history of the department that developed an online platform from scratch
+		and i even deployed it live, for the presentation (bachelor's thesis). I mean a complete application with thousands of lines of code, 
+		using PHP without framework in an object oriented model. With JavaScript and CSS that they barely taught me the basics.
+		After some years i found my paper as a citation on a PhD Thesis. And that made me cry.
+		Of course  the code is horrible now but still, it is something i am proud off.
+	</p> 
+    <p>
+		I was happy working in web development. I worked with custom MVC PHP framework, Html/Css, Javascript (jquery/ Ajax) and Bootstrap on mysql database.
+		used git -github and worked with tools like Simple Database Abstraction for PHP and MySQL (SDBA) and xCRUD (Data management system
+		extended php CRUD library). Some other technologies i worked with include Xml, json, yaml ,toml, rss and atom.
+		My responsibility was to maintain and develop further a site about religious tourism. I made the site
+		mobile ready performed performance optimization, added new site content worked with my SEO
+		colleague to add social media functionality (sm buttons search words, microdata, JSON-LD, web feeds
+		ect ), created on site applications, worked with various APIs (consumption, customization). I was
+		involved in front , back end development and deployment of the site.
+	</p>
+    <p>
+		My happiness did not last long. It was an in-house dev job and so i was let go on downsizing.
+		I actually worked a year there but i was only showing in the books for seven months.
+		Do not ask why, if you don't want to face the truth.
+	</p>
+	<p>
+		So i make my resume and start looking for a job. That three years of blank space, will come to hunt
+		me again and my relevant small experience in a very competitive sector at that time did not help to 
+		land a job in web development.
+</div>
+-------------------------------------------------------------------------------------------------------------------------------------------------
 <div title="Difficult_Time">
 	<h1>Washing Cars</h1>
 	<p>
