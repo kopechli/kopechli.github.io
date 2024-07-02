@@ -1,3 +1,34 @@
+<div title="Difficult_Time">
+	<h1>Washing Cars</h1>
+	<p>
+		It was three years after my discharge from military, my moral was low, 
+		i had gone through the most difficult time in my life to this day 
+		and i was trying to gather my pieces. 
+	</p>
+    <p>
+		The year was 2018 and i found my self trying to reenter the labor market. I was going from interview 
+		to interview in a crisis economy with three years blank in my CV,
+		and the fact that i was from the wrong side of town, was not a plus.
+		I was in a very difficult financial situation and i needed a job.
+		So when i found a job opening at a Car Wash, i took it.		
+	</p> 
+    <p>
+		Α lieutenant that was responsible for millions of equipment, in charge 
+		of infrastructure and troops with Bachelor's degree in Information management,
+		Was now Washing cars.
+	</p>
+    <p>
+		
+		I Washed, vacuumed, waxed and performed auto detail services, 
+		interior rejuvenation and headlights polishing. 
+		And the most technical thing was the Biological cleaning. An in-depth anti-bacterial, 
+		anti-microbial treatment to remove contaminating substances.
+	</p>
+	<p>
+		Don't get me wrong, the is no shame in work, but that doesn't change the way you feel.
+	</p>
+</div>
+------------------------------------------------------------------------------------------------------------------------------------------------
 <div title="Algorithms">
 	<h1>The Army</h1>
 	<p>
