@@ -847,14 +847,10 @@ a:link {
   color: #606c76!important;
 }
 
-/* visited link */
-a:visited {
-  color: #606c76!important;
-}
 
 /* mouse over link */
 a:hover {
-  color: #606c76!important;
+ 
   cursor: pointer; 
 }
 
