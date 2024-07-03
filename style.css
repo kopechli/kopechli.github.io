@@ -842,6 +842,23 @@ input[type="text"]{
 	/* transform:rotate(180deg); */
 	color:cornflowerblue;
 }
-a{
-	 color:black;
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  cursor: pointer; 
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
