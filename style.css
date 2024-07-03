@@ -843,21 +843,21 @@ input[type="text"]{
 	color:cornflowerblue;
 }
 /* unvisited link */
-li a:link {
+blockquote a:link {
   color: #606c76!important;
 }
 /* visited link */
-li a:visited {
+blockquote a:visited {
  color:#606c76!important;
 }
 
 /* mouse over link */
-li a:hover {
+blockquote a:hover {
  color: #606c76!important;
   cursor: pointer; 
 }
 
 /* selected link */
-li a:active {
+blockquote a:active {
   color: #606c76!important;
 }
