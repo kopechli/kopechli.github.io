@@ -111,18 +111,30 @@
     <p>
 		My father lost his job and i was supporting the family alongside my brother with money 
 		i managed to save from my ICT help desk job. But when that money started to dry up and i was
-		unable to find a job. I said to myself, either way i will serve in the army at some point. 
-		So i will apply as a cadet, and that way i will secure an income to send home. 
+		unable to find a job. I found myself in a position where a drastic decision was needed.
+		So I opted to join the army as an cadet and not as conscript to secure an income.
+		The service was only 15 months, and you start to be paid after the first 4 months.
+		I dedicated a year for preparation, quitted smoking, did some running, lost weight ect.
+		I set my target on signals and communication and go to the local garrison.
+		
 	</p> 
     <p>
 		With my background in information management and work experience i thought, it will be relatively 
 		easy to be accepted in signals and communication as a cadet. 
-
-		They told me that the signals and communication is very difficult position to get in. 
-		That it had only 8 open position at that time for the entire country, and if i am not from 
-		a military or political family, i do not stand a chance. And beside that, i need to pass 
-		the physical and psychological exams first.
+		But i found out that the word was that the signals and communication is very difficult position to 
+		get in. It had only eight open position at that time, for the entire country. And if you ware not 
+		from a military or political family, you didn't stood a chance. And that on top of grueling 
+		psychological, IQ and physical tests.
 	</p>
+		The higher-ups took a liking on me because i was a no bullshait type of guy and the military 
+		environment was actually suited to me. There was no hesitation in my actions or convictions.
+		I knew why i was there, and they, knew it too. I "took control" of my barracks at the reception 
+		center immediately. I volunteered for the first duties. And i made known, that no one fucks 
+		with the conscripts in my barracks. I made out of line, sergeants and lieutenants run to the 
+		Commander. So mach so that the Commander in the morning report stated in a vague manner that 
+		he doesn't want any further escalation because he tired of people running to him with 
+		complaints about a certain someone. You will think reading this lines, that this are tall tales, 
+		but actually far more crazy shit went down, in my time, with the army.
     <p>
 		In my time with the army:
 		<ul>
@@ -153,8 +165,11 @@
 	<h1>ICT help desk agent</h1>
     <p>
 		In February 2012 I embarked on a journey, that would further my expertise and passion for technology, 
-		by Joining the OTE Group as an ICT help desk agent. I was the bridge between complex technology and user 
-		satisfaction. Documenting and resolving technical product-related issues became my daily task, 
+		by Joining the OTE Group as an ICT help desk agent. I dedicated the past two years before that, 
+		to my academic studies. Because work had a negative effect on my university responsibilities.
+		
+		In there (OTE Group) I was the bridge between complex technology and user satisfaction. 
+		I was documenting and resolving technical product-related issues as my daily task, 
 		learning and adapting as each new challenge presented itself.
 	</p>
 	<p>  
@@ -166,7 +181,10 @@
 	<p> 
 		Further expanding my responsibilities, I was assigned as a floor assistant for the technical support department. 
 		This position demanded a broad understanding of our operations and the agility to provide support where needed, 
-		ensuring that our team remained responsive and efficient in addressing customer needs.
+		ensuring that our team remained responsive and efficient in addressing customer needs. In that capacity i contributed 
+		many times in the rapid decline of waiting lines, by recognizing the patterns of incoming problems and issuing 
+		effective and fast troubleshooting solutions. In between that i also tracked bugs from newly created internal 
+		software for communication with customers routers. 
 	</p>
 	<p>  
 		A particularly rewarding aspect of my tenure was the opportunity to assist in the training and development of 
@@ -179,7 +197,7 @@
 		understanding of the technical and administrative facets of our operations.
 	</p>
     <p>  
-		By the time my journey at the OTE Group of Companies came to a close in August 2012, I had not only 
+		By the time my journey at the OTE Group of Companies came to a close, I had not only 
 		contributed to the technical support department but had also grown immensely, both professionally 
 		and personally. My time as an ICT help desk agent was a testament to the impact of dedication and 
 		adaptability in the fast-paced world of information and communication technology.
@@ -189,10 +207,14 @@
 <div title="After_College">
 	<h1>Warehouse Operative</h1>
     <p> 
-		It was 2006, in the vibrant heart of Thessaloniki city, where I embarked on a journey within the carpet cleaning business. 
-		This experience would once again engrain in me the core values of hard work, precision, and teamwork. My role in the 
-		warehouse was multifaceted, marked by mountains of carpets and encompassing a range of tasks from the initial washing 
-		to the final stages of vacuuming and packaging.
+		It was 2003, in the vibrant heart of Thessaloniki city, where I embarked on a journey for my second job at age sixteen, 
+		within the carpet cleaning business. It was a kind of job that even the adults where avoiding. It was an old-school 
+		carpet cleaning, and it was physically very demanding job. But the money was more than good at that time.
+		I was still in school and the boss was actually a nice guy.
+		
+		My role in the warehouse was multifaceted, marked by mountains of carpets and encompassing a range of tasks from the initial washing 
+		to the final stages of vacuuming and packaging. This experience would once again engrain in me the core values of hard work, precision, 
+		and teamwork.
 	</p>
     <p>
 		As the seasons unfolded, so did the demands of the job, and with them, my resilience was tested and strengthened. 
@@ -212,21 +234,27 @@
 <div title="Origin">
 	<h1>Assembly Workerr</h1>
     <p>
-		Embarking on the journey through the labor market at a tender age, on a summer of 2004, I found myself immersed in the world 
-        of a seasonal assembly worker at an olive processing plant. The job was my initiation into the workforce, 
-        my rite of passage that introduced me to the realities of earning a living. It was there that I first 
-        understood the meaning of hard work.
-	</p>
-	<p> 
-		My days were a blend of assembly line work, where precision and speed were paramount, physically demanding 
-        loading and unloading work in the yard whare I learned the value of teamwork and the importance of physical 
-        strength and endurance, and maintenance work a task that demanded not just physical prowess but also 
-        a keen sense of organization and efficiency. The weight of the barels, the endless back-and-forth and the hot 
-        Greek summer sun, whare a challenge, in wich I found a newfound resilience and determination.
+		Embarking on the journey through the labor market at a tender age, on a summer of 2001, I found myself in the world 
+        of a seasonal worker on assembly line at an olive processing plant. The job was my initiation into the workforce, 
+        and my introduction to the realities of earning a living. It was there, at the age of fourteen, that I first understood 
+		the meaning of hard work.
 	</p>
 	<p>
-		My journey in to the labor market, beginning as a seasonal assembly worker, was an education. 
-		It taught me the values of hard work, adaptability, and teamwork. 
-        It was a chapter in my growing understanding of the workforce and my place within it.
+		The reason that i has working at fourteen was that my family was poor. My parents did what they could, 
+		but they could not provide me and my brother anything outside basic things. 
+		So if i wanted to wear something decent or if i wanted something more than a cheap small radio, 
+		i needed to work for it.
+	</p>
+	<p> 
+		My days at the plant were a blend of assembly line work and maintenance work, the first demanded precision and speed, 
+		the second was physically demanding work in the yard. I quickly developed physical strength and endurance, and because 
+		of that you could not tell that i was only fourteen at that time. The weight of the barrels, the endless back-and-forth 
+		and the hot Greek summer sun, where a challenge, in which I found my resilience and determination.
+	</p>
+	<p>
+		My first stop in the journey, was an education. It taught me what hard work looks like and the real value of money.
+		It taught me patience and mental endurance, by the way of verbal abuse. It taught me teamwork and adaptability 
+		through assembly line and yard work. It was a chapter that confirmed my growing understanding that life was 
+		neither fair nor easy. I worked there for two seasons, and they were enough to make me determinant to find a better job.
 	</p>
 </div>
