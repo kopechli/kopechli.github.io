@@ -844,21 +844,21 @@ input[type="text"]{
 }
 /* unvisited link */
 a:link {
-  color: black!important;
+  color: #606c76!important;
 }
 
 /* visited link */
 a:visited {
-  color: black!important;
+  color: #606c76!important;
 }
 
 /* mouse over link */
 a:hover {
-  color: black!important;
+  color: #606c76!important;
   cursor: pointer; 
 }
 
 /* selected link */
 a:active {
-  color: black!important;
+  color: #606c76!important;
 }
