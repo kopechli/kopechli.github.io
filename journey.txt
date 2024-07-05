@@ -1,4 +1,4 @@
-<div title="Car_body_shop">
+<div title="Circumstances">
 	<h1>Collision Repair Technician</h1>
 	<p>
 		Covid made everybody's life more miserable and it was no exception for me. 
@@ -102,7 +102,7 @@
 	</p>
 </div>
 ------------------------------------------------------------------------------------------------------------------------------------------------
-<div title="Algorithms">
+<div title="According_To_Plan">
 	<h1>The Army</h1>
 	<p>
 		It was one erly morning of 2014, in the middle of the Greek economic crisis, the month was May 
@@ -114,14 +114,15 @@
 		unable to find a job. I found myself in a position where a drastic decision was needed.
 		So I opted to join the army as an cadet and not as conscript to secure an income.
 		The service was only 15 months, and you start to be paid after the first 4 months.
-		I dedicated a year for preparation, quitted smoking, did some running, lost weight ect.
-		I set my target on signals and communication and go to the local garrison.
+		I dedicated a year for preparation, quitted smoking, did some running, lost weight,
+		i tried to prepare as possible for the psychological, IQ and physical exams.
+		I set my target on signals and communication and went to the local garrison.
 		
 	</p> 
     <p>
 		With my background in information management and work experience i thought, it will be relatively 
 		easy to be accepted in signals and communication as a cadet. 
-		But i found out that the word was that the signals and communication is very difficult position to 
+		But the word was that the signals and communication is very difficult position to 
 		get in. It had only eight open position at that time, for the entire country. And if you ware not 
 		from a military or political family, you didn't stood a chance. And that on top of grueling 
 		psychological, IQ and physical tests.
@@ -130,7 +131,7 @@
 		environment was actually suited to me. There was no hesitation in my actions or convictions.
 		I knew why i was there, and they, knew it too. I "took control" of my barracks at the reception 
 		center immediately. I volunteered for the first duties. And i made known, that no one fucks 
-		with the conscripts in my barracks. I made out of line, sergeants and lieutenants run to the 
+		with the conscripts in my barracks. I made, out of line sergeants and lieutenants run to the 
 		Commander. So mach so that the Commander in the morning report stated in a vague manner that 
 		he doesn't want any further escalation because he tired of people running to him with 
 		complaints about a certain someone. You will think reading this lines, that this are tall tales, 
@@ -204,7 +205,7 @@
     </p> 
 </div>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-<div title="After_College">
+<div title="To_The_College">
 	<h1>Warehouse Operative</h1>
     <p> 
 		It was 2003, in the vibrant heart of Thessaloniki city, where I embarked on a journey for my second job at age sixteen, 
@@ -231,7 +232,7 @@
 	</p>
 </div>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-<div title="Origin">
+<div title="First_Stop">
 	<h1>Assembly Workerr</h1>
     <p>
 		Embarking on the journey through the labor market at a tender age, on a summer of 2001, I found myself in the world 
