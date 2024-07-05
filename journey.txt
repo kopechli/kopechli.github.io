@@ -40,7 +40,7 @@
 		at an interview for a web development position. It may surprise you, but i had a strong background in web development.
 	</p>
     <p>
-		In university i was the only student in the history of the department that developed an online platform from scratch
+		In university i developed an online platform from scratch
 		and i even deployed it live, for the presentation (bachelor's thesis). I mean a complete application with thousands of lines of code, 
 		using PHP without framework in an object oriented model. With JavaScript and CSS that they barely taught me the basics.
 		After some years i found my paper as a citation on a PhD Thesis. And that made me cry.
